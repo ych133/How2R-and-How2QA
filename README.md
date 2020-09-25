@@ -7,7 +7,10 @@ Datasets and code for How2R and How2QA
 
 ### Data Statistics
 
-Dataset | #episodes | #clips | avg clip len | avg pos. statement len | avg neg. statement len | avg subtitle len
+Dataset | #episodes | #clips | avg moment/video len | #training | #val | #public testing
 ------ | -------- | ----- | ------------ | ---------------------- | ---------------------- | ----------------
-How2R|234|2,676|32.89s|17.94|17.85|72.80
-How2QA|Housewives|180|3,466|32.56s|17.79|17.81|69.19
+How2R|9,371|24,328|18.45s/60s|39,299|4,076|4,019
+How2QA||9,035|21,509|16.91s|35,404|2,852|2,937
+
+- Data Download
+[Queries, QA pairs and Subtitles] ([README](https://drive.google.com/open?id=1titZ7HIvzjCQvGasc1qcDlTooTxoufbI))
